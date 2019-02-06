@@ -43,7 +43,7 @@ body
 .imgbox{
 	display: grid;
     height: 100%;
-	margin: -25px 0px 0px 0px;
+	margin: -30px 0px 0px -5px;
 }
 
 .center-fit {
@@ -109,6 +109,60 @@ footer
 	width: 100%;
 	color: black;	
 }
+
+div#footNav
+{
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+    text-align: center;
+	max-width: 100%;
+}
+
+div#footNav a:link, a:visited
+{
+    color: #000;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+div#footNav ul
+{
+    list-style-type: none;
+	display: inline-block;
+    text-align: center;
+    margin: 0px 0px 30px 30px;
+    padding-top: 8px; 
+    line-height: 100%;
+    width: 800px;
+	font-size: 25px;
+}
+
+div#footNav>ul>li:hover
+{
+    margin: 0;
+	padding: 0;
+	border-radius: 0;
+	color: #555;
+}
+
+div#footNav a:link, a:visited
+{
+    color: #000;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+div#footNav a
+{
+   padding: 0px; 
+   margin: 0;
+   font-size: 24px;
+   font-variant: normal;
+   color: #000;
+   display: block;
+   text-decoration: none;
+}
+
 span 
 {
     color: #0d0;
