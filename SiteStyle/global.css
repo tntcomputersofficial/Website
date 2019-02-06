@@ -10,22 +10,35 @@ body
 #MainContent
 {
 	font-size: 30px;
-	font-family: "Arial";
+	font-family: "Lucida Console", Monaco, monospace;
 	margin: 5px 5px 5px 5px;
 }
 #AboutUsMainContent
 {
-	font-size: 30px;
-	font-family: "Arial";
+	font-size: 24px;
+	font-family: "Lucida Console", Monaco, monospace;
 	margin: 5px 5px 5px 5px;
 }
 #AboutUsMainContent h1{
 	text-align:Center;
 	padding-top:10%;
 	background-image: url("../Images/Board.jpg");
+	background-color:#999;
 	color: white;
 	height:300px;
 	max-width:100%;
+}
+#AboutUsMainContent h2{
+	text-align:Center;
+	padding: 0px 200px 0px 200px;
+}
+#AboutUsMainContent p{
+	float: left;
+	padding: 0px 200px 0px 200px;
+}
+#Objective{
+		Color:#00A9FF;
+		
 }
 .imgbox{
 	display: grid;
