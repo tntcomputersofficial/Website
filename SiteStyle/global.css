@@ -1,11 +1,3 @@
-h1
-{
-	font-size: 30px;
-	font-family: "Arial";
-    float: left;
-	margin: 0px 0px 0px 0px;
-}
-
 body
 {
 	height: 100%;
@@ -19,8 +11,21 @@ body
 {
 	font-size: 30px;
 	font-family: "Arial";
-    float: left;
-	margin: 0px 0px 0px 0px;
+	margin: 5px 5px 5px 5px;
+}
+#AboutUsMainContent
+{
+	font-size: 30px;
+	font-family: "Arial";
+	margin: 5px 5px 5px 5px;
+}
+#AboutUsMainContent h1{
+	text-align:Center;
+	padding-top:10%;
+	background-image: url("../Images/Board.jpg");
+	color: white;
+	height:300px;
+	max-width:100%;
 }
 .imgbox{
 	display: grid;
