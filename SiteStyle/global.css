@@ -32,13 +32,40 @@ body
 	text-align:Center;
 	padding: 0px 200px 0px 200px;
 }
+#AboutUsMainContent h6{
+	position:Absolute;
+	font-size:12px;
+	top:60%;
+}
+#AboutUsMainContent h6{
+	position:Absolute;
+	font-size:12px;
+	top:60%;
+}
 #AboutUsMainContent p{
 	float: left;
 	padding: 0px 200px 0px 200px;
 }
-#Objective{
-		Color:#00A9FF;
+#Objective h2{
+		Color:#000099;
+		margin-right: 40%;
 		
+}
+#Objective{
+	background-color:#a6a6a6;
+	width:auto;
+	height:600px;
+	overflow:auto;
+	
+}
+#Objective img{
+	height:40%;
+	width:auto;
+	position:Absolute;
+	right:10%;
+}
+#Process{
+	
 }
 .imgbox{
 	display: grid;
