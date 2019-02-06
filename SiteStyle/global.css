@@ -25,6 +25,7 @@ body
 .imgbox{
 	display: grid;
     height: 100%;
+	margin: -25px 0px 0px 0px;
 }
 
 .center-fit {

@@ -11,7 +11,7 @@ nav
 	padding: 15px;
 	background-color: rgba(30, 30, 30, 1);
     text-align: center;
-	width: 100%;
+	max-width: 100%;
 }
 
 nav>ul
