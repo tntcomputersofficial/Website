@@ -63,9 +63,17 @@ body
 	width:auto;
 	position:Absolute;
 	right:10%;
+
 }
 #Process{
-	
+	background-color:#666;
+	width:auto;
+	height:auto;
+	overflow:auto;
+	color:White;
+}
+#Process h2{
+	color: #00A9FF;
 }
 .imgbox{
 	display: grid;
