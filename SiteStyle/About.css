@@ -21,7 +21,7 @@
   grid-area: objective;
   grid-gap: 10px;
   margin: 100px;
-  box-shadow: 10px 10px 5px #c9cacc;
+  box-shadow: 10px 10px 5px #babbbc;
 	color: #000099;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:
