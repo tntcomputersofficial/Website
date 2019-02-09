@@ -117,6 +117,8 @@ footer
 	color: black;
 }
 
+/*for videos*/
+
 iframe
 {
 	float: left;
@@ -124,4 +126,71 @@ iframe
     padding: 10px;
     border:4px solid #CCC;
     background-color: #000;
+}
+
+/*Bloew this point is the top nav bar*/
+nav
+{
+	grid-area: Nav;
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	background-color: rgba(30, 30, 30, 1);
+    text-align: center;
+	max-width: 100%;
+}
+
+nav>ul
+{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 0px 30px 30px;
+    padding-top: 8px;
+    line-height: 100%;
+    width: 800px;
+	font-size: 25px;
+}
+
+nav li
+{
+    width: 200px;
+    margin: 0;
+    padding: 0px;
+    float: left;
+    position: relative;
+    list-style: none;
+    z-index: 10;
+	font-size: 25px;
+}
+
+nav a
+{
+   padding: 0px;
+   margin: 0;
+   font-weight: bold;
+   font-size: 14px;
+   font-variant: normal;
+   color: #000;
+   display: block;
+   text-decoration: none;
+   font-size: 25px;
+}
+
+nav a:link, a:visited
+{
+    color: #00A9FF;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+nav>ul>li:hover
+{
+    margin: 0;
+	padding: 0;
+	border-radius: 0;
+	background-color: rgba(230, 230, 230, 1);
+}
+
+nav li:hover
+{
+    color: black;
 }
