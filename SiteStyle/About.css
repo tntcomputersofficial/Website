@@ -1,0 +1,55 @@
+#AboutUsMainContent
+{
+	font-size: 24px;
+	font-family: "Lucida Console", Monaco, monospace;
+  display: grid;
+  grid-template-columns: 1fr 800px 800px 1fr;
+  grid-template-areas:
+	"title title title title"
+  ". objective objective ."
+  ". process process .";
+  color: #00A9FF;
+}
+.title{
+  background-image: url("../Images/Board.jpg");
+  grid-area: title;
+	text-align: center;
+}
+.objective{
+  background-color: #a6a6a6;
+  display: grid;
+  grid-area: objective;
+  grid-gap: 10px;
+  margin: 100px;
+  box-shadow: 10px 10px 5px #c9cacc;
+	color: #000099;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"objHead objImg"
+	"objCont objImg";
+}
+.objHead{
+	grid-area: objHead;
+	text-align: center;
+}
+.objCont{
+	grid-area: objCont;
+	text-align: center;
+	align-self: center;
+	color: black;
+}
+.objImg{
+	grid-area: objImg;
+}
+.objImg img{
+	height: 450px;
+	width: 350px;
+	float: right;
+}
+
+.process{
+  background-color: #666;
+  grid-area: process;
+	color: #000099;
+	text-align: center;
+}
