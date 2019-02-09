@@ -20,7 +20,7 @@
   display: grid;
   grid-area: objective;
   grid-gap: 10px;
-  margin: 100px;
+  margin: 50px;
   box-shadow: 10px 10px 5px #babbbc;
 	color: #000099;
 	grid-template-columns: 1fr 1fr;
@@ -31,12 +31,14 @@
 .objHead{
 	grid-area: objHead;
 	text-align: center;
+	padding-top: 20px;
 }
 .objCont{
 	grid-area: objCont;
 	text-align: center;
 	align-self: center;
 	color: black;
+	padding: 20px;
 }
 .objImg{
 	grid-area: objImg;
@@ -50,6 +52,74 @@
 .process{
   background-color: #666;
   grid-area: process;
-	color: #000099;
+	color: white;
+	display: grid;
+	grid-gap: 50px;
+	margin: 50px;
+	padding: 50px;
+	box-shadow: 10px 10px 5px #babbbc;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"procHead procHead"
+	"procCont1 procImg1"
+	"procImg2 procCont2"
+	"procCont3 procImg3"
+	"procImg4 procCont4"
+	"procFoot procFoot";
+}
+.procHead{
+	grid-area: procHead;
+	color: #a3cdf7;
+	text-align: center;
+}
+.procCont1{
+	grid-area: procCont1;
+	align-self: center;
+	text-align: center;
+
+}
+.procCont2{
+	grid-area: procCont2;
+	align-self: center;
+	text-align:center;
+
+}
+.procCont3{
+	grid-area: procCont3;
+	align-self: center;
+	text-align:center;
+
+}
+.procCont4{
+	grid-area: procCont4;
+	align-self: center;
+	text-align:center;
+
+}
+.procImg1{
+	grid-area: procImg1;
+}
+.procImg1 img{
+	height:50%;
+	Width: 50%;
+	float: right;
+}
+.procImg2{
+	grid-area: procImg2;
+}
+.procImg2 img{
+	height: 40%;
+	width: 40%
+}
+.procImg3{
+	grid-area: procImg3;
+}
+.procImg3 img{
+	height: 40%;
+	width: 40%;
+	float: right;
+}
+.procFoot{
+	grid-area: procFoot;
 	text-align: center;
 }
