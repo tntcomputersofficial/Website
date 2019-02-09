@@ -3,16 +3,6 @@
 	padding: 0;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-template-areas:
-	"MainConten MainContent MainContent";
-}
-
-
-
 body
 {
 	height: 100%;
@@ -22,80 +12,22 @@ body
 	background-repeat:no-repeat;
 }
 
-#MainContent
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+	"MainContent MainContent MainContent MainContent"
+	"Aboutus PreviousWork Order Contactus"
+	"Footer Footer Footer Footer";
+}
+
+.MainContent
 {
-	grid-area: ""
+	grid-area: MainContent;
 	font-size: 30px;
 	font-family: "Lucida Console", Monaco, monospace;
 	margin: 5px 5px 5px 5px;
-}
-
-#AboutUsMainContent
-{
-	font-size: 24px;
-	font-family: "Lucida Console", Monaco, monospace;
-	margin: -32px 0px 5px 0px;
-}
-
-#AboutUsMainContent h1{
-	text-align:Center;
-	padding-top:10%;
-	background-image: url("../Images/Board.jpg");
-	background-color:#999;
-	color: white;
-	height:300px;
-	max-width:100%;
-}
-
-#AboutUsMainContent h2{
-	text-align:Center;
-	padding: 0px 200px 0px 200px;
-}
-
-#AboutUsMainContent h6{
-	position:Absolute;
-	font-size:12px;
-	top:60%;
-}
-
-#AboutUsMainContent h6{
-	position:Absolute;
-	font-size:12px;
-	top:60%;
-}
-
-#AboutUsMainContent p{
-	float: left;
-	padding: 0px 200px 0px 200px;
-}
-#Objective h2{
-		Color:#000099;
-		margin-right: 40%;
-
-}
-#Objective{
-	background-color:#a6a6a6;
-	width:auto;
-	height:600px;
-	overflow:auto;
-
-}
-#Objective img{
-	height:40%;
-	width:auto;
-	position:Absolute;
-	right:10%;
-
-}
-#Process{
-	background-color:#666;
-	width:auto;
-	height:auto;
-	overflow:auto;
-	color:White;
-}
-#Process h2{
-	color: #00A9FF;
 }
 
 #container{
@@ -103,7 +35,7 @@ body
 	position:relative;
 }
 
-#center-fit{
+#Image{
 	margin: -5px 0px 0px -5px;
 	height: 800px;
 	width: 101%;
@@ -157,28 +89,13 @@ body
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-#imgText{
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: Center;
-	color: #fff;
-}
+
 #button a:hover{
 	padding: 10px 0px;
 	background-color: rgba(230, 230, 230, 1);
 }
 
-footer
-{
-	clear: both;
-	text-align: left;
-	width: 100%;
-	color: black;
-}
-
-div#footNav
+#footNav
 {
 	margin: 0px 0px 0px 0px;
 	padding: 15px;
@@ -186,14 +103,14 @@ div#footNav
 	max-width: 100%;
 }
 
-div#footNav a:link, a:visited
+#footNav a:link, a:visited
 {
     color: #000;
 	font-variant: normal;
 	text-decoration: none;
 }
 
-div#footNav ul
+#footNav ul
 {
     list-style-type: none;
 	display: inline-block;
@@ -205,7 +122,7 @@ div#footNav ul
 	font-size: 25px;
 }
 
-div#footNav>ul>li:hover
+#footNav>ul>li:hover
 {
     margin: 0;
 	padding: 0;
@@ -213,14 +130,14 @@ div#footNav>ul>li:hover
 	color: #555;
 }
 
-div#footNav a:link, a:visited
+#footNav a:link, a:visited
 {
     color: #000;
 	font-variant: normal;
 	text-decoration: none;
 }
 
-div#footNav a
+#footNav a
 {
    padding: 0px;
    margin: 0;
@@ -229,6 +146,14 @@ div#footNav a
    color: #000;
    display: block;
    text-decoration: none;
+}
+
+footer
+{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	color: black;
 }
 
 iframe
